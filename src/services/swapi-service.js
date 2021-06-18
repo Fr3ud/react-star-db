@@ -3,7 +3,7 @@ export default class SwapiService {
 
     async getResource(url) {
         return fetch(`${this._apiBase}${url}`).then((res) => {
-            if (!res.ok) throw new Error(`Could not fetch ${url}, received ${res.status}`);
+            if (!res.ok) throw new Error(`Could not fetch ${this._apiBase}${url}, received ${res.status}`);
 
             return res.json()
         });
@@ -25,8 +25,8 @@ export default class SwapiService {
         return res.results;
     }
 
-    getAllPlanet(id) {
-        return this.getResource(`/planet/${id}`);
+    getPlanet(id) {
+        return this.getResource(`/planets/${id}`);
     }
 
     async getAllStarships() {
