@@ -1,0 +1,110 @@
+@keyframes ldio-490z0bkn5x9-1 {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(-45deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes ldio-490z0bkn5x9-2 {
+    0% {
+        transform: rotate(180deg)
+    }
+    50% {
+        transform: rotate(225deg)
+    }
+    100% {
+        transform: rotate(180deg)
+    }
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(2) {
+    transform: translate(-15px, 0);
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(2) div {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 120px;
+    height: 60px;
+    border-radius: 120px 120px 0 0;
+    background: #ffdf68;
+    animation: ldio-490z0bkn5x9-1 7.692307692307692s linear infinite;
+    transform-origin: 60px 60px
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(2) div:nth-child(2) {
+    animation: ldio-490z0bkn5x9-2 7.692307692307692s linear infinite
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(2) div:nth-child(3) {
+    transform: rotate(-90deg);
+    animation: none;
+}
+
+@keyframes ldio-490z0bkn5x9-3 {
+    0% {
+        transform: translate(190px, 0);
+        opacity: 0
+    }
+    20% {
+        opacity: 1
+    }
+    100% {
+        transform: translate(70px, 0);
+        opacity: 1
+    }
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(1) {
+    display: block;
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(1) div {
+    position: absolute;
+    top: 92px;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #6693ff;
+    animation: ldio-490z0bkn5x9-3 7.692307692307692s linear infinite
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(1) div:nth-child(1) {
+    animation-delay: -0.08710000000000001s
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(1) div:nth-child(2) {
+    animation-delay: -0.0429s
+}
+
+.ldio-490z0bkn5x9 > div:nth-child(1) div:nth-child(3) {
+    animation-delay: 0s
+}
+
+.loadingio-spinner-bean-eater-ceo0tnvtwn8 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.ldio-490z0bkn5x9 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+}
+
+.ldio-490z0bkn5x9 div {
+    box-sizing: content-box;
+}
